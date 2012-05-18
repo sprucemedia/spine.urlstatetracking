@@ -1,4 +1,4 @@
-StateTracker = 
+UrlStateTracker = 
 
     modelName: null
 
@@ -62,4 +62,4 @@ StateTracker =
             when "Float" then return parseFloat(value)
             else return value
 
-@Spine.StateTracker = StateTracker
+@Spine.UrlStateTracker = UrlStateTracker
